@@ -58,7 +58,7 @@ the following actions in order:
      * ``zarr.attrs`` has gone, with no replacement
      * ``zarr.codecs`` has gone, use ``numcodecs`` instead
      * ``zarr.context`` has gone, with no replacement
-     * ``zarr.core`` remains but should be considered private API
+     * ``zarr.core`` remains but should be considered private API (and will be renamed to be private before a final release)
      * ``zarr.hierarchy`` has gone, with no replacement (use ``zarr.Group`` inplace of ``zarr.hierarchy.Group``)
      * ``zarr.indexing`` has gone, with no replacement
      * ``zarr.meta`` has gone, with no replacement
